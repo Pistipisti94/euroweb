@@ -6,7 +6,7 @@
       "cuisine": "Romanian",
       "description": "Experience Romania's culinary heart at Sarmale Bistro. Savor classics with a modern touch in our intimate, authentic ambiance. Celebrate timeless tradition.",
       "rating": 5,
-      "image": "data/Sarmale Bistro.png"
+      "image": "Sarmale Bistro.png"
     },
     {
       "id": 14,
@@ -15,7 +15,7 @@
       "cuisine": "Seafood",
       "description": "Immerse in Eastern European authenticity at Halász Fogadö. Relish traditional dishes amid an atmosphere rich in charm and history. Join us for a timeless culinary experience.",
       "rating": 5,
-      "image": "data/Halász Fogadó.png"
+      "image": "Halász Fogadó.png"
     },
     {
       "id": 2,
@@ -24,6 +24,6 @@
       "cuisine": "Romanian",
       "description": "Discover a fusion of Europe's flavors at La Piața, set in the heart of the city. Savor dishes from locally-sourced ingredients in our cozy bistro ambiance.",
       "rating": 4,
-      "image": "data/La Piața.png"
+      "image": "La Piața.png"
     }
   ]

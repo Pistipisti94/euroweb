@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         }
         top3.innerHTML = html; //-- frissíti a DOM-ot, megjeleníti a kártyákat
+        document.getElementById('top4').innerHTML = html;
     }
     function getRestoranteCard(restoranteData) {
         console.log(restoranteData.rating);
         let html = `<div class="card col-lg-3 col-md-6 col-sm-12 mx-4 top3card">
-                             <img src="${restoranteData.image}" class="card-img-top" alt="${restoranteData.name}">
+                             <img src="data\\${restoranteData.image}" class="card-img-top" alt="${restoranteData.name}">
                              <div class="card-body">
                                  <h5
                                      class="card-title d-flex justify-content-between"><span
@@ -28,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                          class="m-4">${rate(restoranteData.rating)}</span></h5>
                                  <p class="card-text">${restoranteData.description}</p>
                                  <a href="#" class="btn btn-block btn-primary">View
-                                     restaurant >> </a>
+                                     restaurant &#187; </a>
                              </div>
                          </div>`;
         console.log(html);
