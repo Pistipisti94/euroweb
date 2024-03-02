@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const data = await response.json(); // response.json() returns a promise
         console.log(data);
         let html = ''; // create a variable to store the HTML
-        for (let index = 0; index < data.length; index++) {
-            html += getRestoranteCard(data[index]);
+            html += getRestoranteCard(data[0]);
+            html += getRestoranteCard(data[2]);
+            html += getRestoranteCard(data[1]);
 
-        }
+        
         top3.innerHTML = html; //-- frissíti a DOM-ot, megjeleníti a kártyákat
         document.getElementById('top4').innerHTML = html;
     }

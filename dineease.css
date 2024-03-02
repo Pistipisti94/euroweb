@@ -21,8 +21,9 @@
   border: 0.5px solid gray;
   min-width: 24rem;
 }
+
 .kereso input {
-width: 22rem;
+  width: 22rem;
 }
 
 .showMore,
@@ -35,23 +36,29 @@ width: 22rem;
   margin-left: auto;
   margin-right: auto;
 }
-#shm h1 
-{
+
+#shm h1 {
   text-align: center;
 }
 
-#imgbehinmde
-{
-  position:absolute;
-    left:12rem;
-    top:1720px;
-    z-index:1;
-    filter: contrast( 10);
+#feljebb {
+  margin-top: -80px;
+  margin-right: -200px;
+  margin-left: 150px;
 }
-.comment:nth-child(1) h1
-{
+
+#imgbehinmde {
+  position: relative;
+  left: -7rem;
+  top: 150px;
+  z-index: 1;
+  filter: contrast(10);
+}
+
+.comment:nth-child(1) h1 {
   margin-top: 100px;
 }
+
 .card .btn-primary,
 .card .btn-primary:hover {
   background: none;
@@ -76,21 +83,23 @@ div .card .card-img-top {
 button.btn {
   margin-top: auto;
 }
+
 .box {
- margin-top: 15rem;
+  margin-top: 15rem;
 }
-  
+
 
 
 .tape {
   background-color: blueviolet;
   box-shadow: inset 0 0 1em .5em hsla(0, 0%, 100%, .1);
-  height: 3em;
+  height: 4em;
   position: absolute;
   transform: rotate(-10deg);
-  width: 30em;
+  width: 40em;
   -webkit-filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .3));
-  top: 700px;
+  top: 620px;
+  left: -100px;
 }
 
 .tape:after,
@@ -116,15 +125,17 @@ button.btn {
   background-position: 100% 100%;
   right: -.2em;
 }
+
 .tape2 {
   background-color: rgb(237, 234, 255);
   box-shadow: inset 0 0 1em .5em hsla(0, 0%, 100%, .1);
-  height: 3em;
+  height: 4em;
   position: absolute;
   transform: rotate(-10deg);
   width: 20em;
   -webkit-filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .3));
-  top: 763px;
+  top: 700px;
+  left: -10px;
 }
 
 .tape2:after,
@@ -187,6 +198,7 @@ button.btn {
 
 
 }
+
 #top4 {
   position: relative;
   width: auto;
@@ -204,14 +216,14 @@ button.btn {
   filter: grayscale(100%);
 }
 
-.comment .card h1 {  
-  margin: -10px 30px; 
+.comment .card h1 {
+  margin: -10px 30px;
   margin-top: px;
   position: absolute;
-  
+
 }
-.comment .card h1 img
-{
+
+.comment .card h1 img {
   max-height: 20px;
   top: 300px;
 }
@@ -226,9 +238,61 @@ button.btn {
 
 .comment .card p {
   font-size: large;
-  margin: 0.5rem 5rem ;
+  margin: 0.5rem 5rem;
 }
 
-#keresosav,.kereso {
+#keresosav,
+.kereso {
   text-align: center;
+
+}
+
+.kereso input {
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px 5px;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow: 2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border: none;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+input:focus {
+  outline: none;
+}
+
+button {
+  /* Just a little styling to make it pretty */
+  border: 0px;
+  background-color: rgb(238, 238, 238);
+  margin-left: -12px;
+  border-radius: 5px 5px;
+  padding: 10px;
+}
+
+.Searchico {
+
+  background: url(images/Search\ Icon.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+.eznemigazhe
+{
+  height: 10px;
+  width: 15px;
+}
+#ittottkep
+{
+  height: 25px;
+  width: 25px;
+}
+#ittott
+{
+  margin: 10px;
+  width: 50px;
+  background-color: rgb(216, 196, 234);
 }
