@@ -181,5 +181,15 @@ margin-bottom: 8rem;
     margin-top: 150px;
     margin-left: 20px;
     letter-spacing: 20px;
-    
+}
+.b{
+    text-align: left;
+    font-weight: 700
+}
+.form-control
+{
+    background-color: rgb(231, 231, 231);
+}
+.p{
+    background-color: blueviolet;
 }
