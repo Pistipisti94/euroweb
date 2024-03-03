@@ -1,0 +1,145 @@
+h1,h6
+{
+    text-align: center;
+}
+hr
+{
+    border: 1px solid rgb(112, 51, 170);
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+    margin-bottom: 0px;
+}
+.timeyear p
+{
+    color: rgb(112, 51, 170);
+    font-weight: 800;
+}
+#csikle
+{
+    position: relative;
+    &::before{
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 3px;
+        /* Állítsd be a szélességét */
+        height: 70px;
+        /* Állítsd be a magasságát */
+        
+        /* Kerekített szélek kialakítása */
+        background-color: var(--background-color-light);
+        /* Válassz egy kör színt */
+        bottom: -100px;
+        left: 18px;
+      }
+}
+#csikfel
+{
+    position: relative;
+    &::before{
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 3px;
+        /* Állítsd be a szélességét */
+        height: 70px;
+        /* Állítsd be a magasságát */
+        
+        /* Kerekített szélek kialakítása */
+        background-color: var(--background-color-light);
+        /* Válassz egy kör színt */
+        bottom: 40px;
+        left: 18px;
+      }
+}
+#pontok
+{
+    top: -75px;
+    position: relative;
+    left: 455px;
+    font-size: 70px;
+    color: rgb(112, 51, 170);
+    letter-spacing: 93px;
+}
+.TmeLine
+{
+    margin-top: 200px;
+}
+.TmeLine2
+{
+    margin-bottom: 100px;
+}
+#timelinetxtlent
+{
+    color: black;
+    font-weight: 400;
+    position: relative;
+    top: 200px;
+    right: 75px;
+    text-align: center;
+}
+#timelinetxtfent
+{
+    color: black;
+    font-weight: 400;
+    position: relative;
+    bottom: 200px;
+    right: 75px;
+    text-align: center;
+}
+img
+{
+max-height: 80px;
+max-width: 80px;
+}
+.card img,.card p,.card h6{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card p{
+    font-size: small;
+}
+.card h6
+{
+    font-weight: 700;
+}
+.card {
+    border: none;
+}
+.team{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.CONNECTDINEEASE h1
+{
+margin-top: 20px;
+}
+.CONNECTDINEEASE
+{
+    
+    color: white;
+   background-color:blueviolet;
+}
+.CONNECTDINEEASE p
+{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+max-width: 40rem;
+margin-bottom: 8rem;
+}
+.CONNECTDINEEASE div:nth-child(2) a
+{
+    font-size: 20px;
+    border-radius: 10px 10px;
+    position: relative;
+    left: 515px;
+    bottom: 100px;
+    color: blueviolet;
+    background-color: white;
+    padding: 10px 30px;
+}
+
+
