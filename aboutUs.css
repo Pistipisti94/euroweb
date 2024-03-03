@@ -142,4 +142,44 @@ margin-bottom: 8rem;
     padding: 10px 30px;
 }
 
+/*CONTACT CSS*/
+.helphead
+{
+    margin: 20px;
+    margin-bottom: 60px;
+    color: white;
+}
+.continfo
+{
+    background-color: blueviolet;
+    border-radius: 10px 10px;
+    margin: 50px 10px;
+    min-height: 30rem;
+    max-width: 25rem;
+    margin-right: auto;
+    color: white;
+}
+.help ul li
+{
+    margin-bottom: 40px;
 
+}
+.help ul li:nth-child(1) 
+{
+    list-style-image: url('images/phone-call_3059446.png');
+}
+.help ul li:nth-child(2) 
+{
+    list-style-image: url('images/email.png');
+}
+.help ul li:nth-child(3) 
+{
+    list-style-image: url('images/gps_13146875.png');
+}
+.contifoot
+{
+    margin-top: 150px;
+    margin-left: 20px;
+    letter-spacing: 20px;
+    
+}
