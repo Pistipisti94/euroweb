@@ -57,6 +57,7 @@
 
 .comment:nth-child(1) h1 {
   margin-top: 100px;
+  min-width: 400px;
 }
 
 .card .btn-primary,
@@ -84,10 +85,9 @@ button.btn {
   margin-top: auto;
 }
 
-.box {
-  margin-top: 15rem;
+.box h1 {
+  margin-top: 20rem;
 }
-
 
 
 .tape {
@@ -162,18 +162,28 @@ button.btn {
   right: -.2em;
 }
 
+#szovegecske {
+  max-width: 34rem;
+}
+
 #heroDineease {
-  margin-top: 130px;
+  margin-top: 50px;
+}
+
+#HeroSection h1 {
+  font-weight: bolder;
+  max-width: 30rem;
 }
 
 /* top 3 éttermet tartalmazó div formázása */
 #top3 {
+
   position: relative;
   width: auto;
   /* Adj megfelelő szélességet a div-nek */
   height: auto;
   /* Adj megfelelő magasságot a div-nek */
-  margin-bottom: 10px;
+  margin-bottom: 5rem;
 
 
   /* Az alsó bal sarkon lévő kör */
@@ -194,9 +204,6 @@ button.btn {
   }
 
   /* A felső jobb sarkon lévő kör */
-
-
-
 }
 
 #top4 {
@@ -210,7 +217,10 @@ button.btn {
 /* véleményeket tartalmazó div formázása */
 #testimonials {
   background-color: var(--background-color-light);
+  height: 45rem;
 }
+
+.fix {}
 
 .gray {
   filter: grayscale(100%);
@@ -280,19 +290,83 @@ button {
   background: url(images/Search\ Icon.png) no-repeat scroll 7px 7px;
   padding-left: 30px;
 }
-.eznemigazhe
-{
+
+.eznemigazhe {
   height: 10px;
   width: 15px;
 }
-#ittottkep
-{
+
+#ittottkep {
   height: 25px;
   width: 25px;
 }
-#ittott
-{
+
+#ittott {
   margin: 10px;
   width: 50px;
   background-color: rgb(216, 196, 234);
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .tape,
+  .tape2 {
+    visibility: hidden;
+  }
+
+  #testimonials {
+    height: 45rem;
+    padding-right: 50px;
+  }
+
+  #telocard {
+    max-width: fit-content;
+    margin: 10px;
+  }
+
+  #heroDineease img {
+    max-width: fit-content;
+  }
+
+  html {
+    width: fit-content;
+  }
+  .card{
+    padding-top: 10px;
+    padding-bottom: px;
+    max-width: fit-content;
+    margin-bottom: 10px;
+    max-height: 25rem;
+  }
+  div .card .card-img-top
+  {
+    min-height: 10rem;
+    height: 10px;
+  }
+  div .card a
+  {
+    max-width: 10rem;
+    margin-left: auto;
+  }
+  #imgbehinmde
+  {
+    left: -2px;
+  }
+  .comment:nth-child(1) h1
+  {
+    font-weight: 700;
+    max-width: 31rem;
+  }
+  .comment .card p
+  {
+    min-width: 28rem;
+  }
+  #Hero_Section
+  {
+    background: url(images/Hero\ Illustration.png) no-repeat;
+  }
+}
+.row
+{
+  justify-content: center;
 }
